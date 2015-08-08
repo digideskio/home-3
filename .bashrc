@@ -116,7 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1='\e[32;1m\u@\h: \e[34m\w\e[0m\$ '
+export PS1="\e[0;32m\u@\h:\e[m\e[0;34m\w\e[m$ "
 
 # Go
 export GOROOT=/usr/local/go
