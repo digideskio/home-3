@@ -119,6 +119,6 @@ fi
 PS1='\e[32;1m\u@\h: \e[34m\w\e[0m\$ '
 
 # Go
-export PATH="$PATH:/usr/local/go/bin"
-export GOROOT=$HOME/go
-export PATH="$PATH:$GOROOT/bin"
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
