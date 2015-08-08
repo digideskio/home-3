@@ -1,0 +1,17 @@
+.ICEauthority
+.Xauthority
+.bash_history
+.bash_logout
+.cache
+.config
+.dmrc
+.gconf
+.gnupg
+.local
+.mozilla
+.sudo_as_admin_successful
+.xsession-errors*
+Downloads
+examples.desktop
+vmware-tools-distrib
+*.swp
