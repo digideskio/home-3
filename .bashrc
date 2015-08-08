@@ -115,3 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+PS1='\e[32;1m\u@\h: \e[34m\w\e[0m\$ '
