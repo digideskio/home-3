@@ -9,6 +9,7 @@
 .gnupg
 .local
 .mozilla
+.ssh
 .sudo_as_admin_successful
 .xsession-errors*
 Downloads
