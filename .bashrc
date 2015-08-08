@@ -117,3 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 PS1='\e[32;1m\u@\h: \e[34m\w\e[0m\$ '
+
+# Go
+export PATH="$PATH:/usr/local/go/bin"
+export GOROOT=$HOME/go
+export PATH="$PATH:$GOROOT/bin"
