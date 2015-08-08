@@ -11,6 +11,7 @@
 .mozilla
 .ssh
 .sudo_as_admin_successful
+.viminfo
 .xsession-errors*
 Downloads
 examples.desktop
