@@ -122,3 +122,6 @@ export PS1="\[\e[0;32m\]\u@\h:\[\e[0;34m\]\w\[\e[m\]$ "
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH="$PATH:$GOROOT/bin:$GOPATH/bin"
+
+# Scripts in $HOME/bin
+export PATH="$HOME/bin:$PATH"
