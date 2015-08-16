@@ -19,3 +19,7 @@ examples.desktop
 go
 vmware-tools-distrib
 *.swp
+.gnome
+.mysql_history
+.npm
+.pki
