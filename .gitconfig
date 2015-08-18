@@ -7,3 +7,6 @@
 	default = simple
 [core]
 	editor = vi
+[diff]
+	tool = diffuse
+	external = /home/borenet/bin/git_diffuse.sh
