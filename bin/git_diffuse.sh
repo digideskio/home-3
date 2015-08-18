@@ -5,5 +5,6 @@
 if [ -z "$SSH_CLIENT" ]; then
   diffuse "$2" "$5" | cat
 else
-  diff "$2" "$5"
+  echo "$1"
+  diff "$2" "$5" | cat
 fi
